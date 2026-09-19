@@ -1,0 +1,820 @@
+{
+  "characters": [
+    {
+      "id": "necrobinder",
+      "name": "Necrobinder",
+      "theme": {
+        "primary": "#7a2eb0",
+        "secondary": "#2d1a3a",
+        "accent": "#d94be8"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "strike-necrobinder",
+      "name": "Strike",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Deal 6 damage.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": "defend-necrobinder",
+      "name": "Defend",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Gain 5 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": "bodyguard",
+      "name": "Bodyguard",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Summon 5.",
+      "categories": [
+        "defense",
+        "summon"
+      ],
+      "synergyTags": [
+        "basic",
+        "osty-summon"
+      ]
+    },
+    {
+      "id": "unleash",
+      "name": "Unleash",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Osty deals 6 damage. Deals additional damage equal to Osty's current HP.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "basic",
+        "osty-synergy"
+      ]
+    },
+    {
+      "id": "banshees-cry",
+      "name": "Banshee's Cry",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "9",
+      "description": "Deal 33 damage to ALL enemies. Costs 1 less for each Ethereal card played this combat.",
+      "categories": [
+        "attack",
+        "aoe",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "ethereal-synergy",
+        "cost-reduction"
+      ]
+    },
+    {
+      "id": "call-of-the-void",
+      "name": "Call of the Void",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the start of your turn, add 1 random card into your Hand. It gains Ethereal.",
+      "categories": [
+        "scaling",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "ethereal-synergy",
+        "random-generation"
+      ]
+    },
+    {
+      "id": "demesne",
+      "name": "Demesne",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Ethereal. At the start of your turn, gain 1 Energy and draw 1 additional card.",
+      "categories": [
+        "scaling",
+        "energy-generation",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "cycle"
+      ]
+    },
+    {
+      "id": "neurosurge",
+      "name": "Neurosurge",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Gain 1 Energy. Draw 2 cards. At the start of your turn, apply 3 Doom to yourself.",
+      "categories": [
+        "energy-generation",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "doom-synergy",
+        "self-debuff",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "reanimate",
+      "name": "Reanimate",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Summon 20. Exhaust.",
+      "categories": [
+        "summon",
+        "defense"
+      ],
+      "synergyTags": [
+        "osty-summon",
+        "exhaust-synergy",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "reaper-form",
+      "name": "Reaper Form",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Whenever Attacks deal damage, apply that much Doom.",
+      "categories": [
+        "scaling",
+        "debuff"
+      ],
+      "synergyTags": [
+        "doom-synergy",
+        "multi-hit-synergy",
+        "win-condition"
+      ]
+    },
+    {
+      "id": "bone-shards",
+      "name": "Bone Shards",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "If Osty is alive, he deals 9 damage to ALL enemies and you gain 9 Block. Osty dies.",
+      "categories": [
+        "attack",
+        "aoe",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "osty-synergy",
+        "osty-sacrifice"
+      ]
+    },
+    {
+      "id": "capture-spirit",
+      "name": "Capture Spirit",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Enemy loses 3 HP. Add 3 Souls into your Draw Pile.",
+      "categories": [
+        "card-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "soul-synergy",
+        "engine-enabler"
+      ]
+    },
+    {
+      "id": "danse-macabre",
+      "name": "Danse Macabre",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever you play a card that costs 2 or more, gain 4 Block.",
+      "categories": [
+        "scaling",
+        "defense"
+      ],
+      "synergyTags": [
+        "high-cost-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "deathbringer",
+      "name": "Deathbringer",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Apply 21 Doom and 1 Weak to ALL enemies.",
+      "categories": [
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "doom-synergy",
+        "weak-synergy"
+      ]
+    },
+    {
+      "id": "dirge",
+      "name": "Dirge",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "X",
+      "description": "Summon 3 X times. Add X Souls into your Draw Pile. Exhaust.",
+      "categories": [
+        "summon",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "x-cost",
+        "osty-summon",
+        "soul-synergy",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "enfeebling-touch",
+      "name": "Enfeebling Touch",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Ethereal. Enemy loses 8 Strength this turn.",
+      "categories": [
+        "defense",
+        "debuff"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "multi-hit-counter"
+      ]
+    },
+    {
+      "id": "lethality",
+      "name": "Lethality",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Ethereal. The first Attack each turn deals 50% additional damage.",
+      "categories": [
+        "scaling",
+        "damage-modifier"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "high-damage-synergy"
+      ]
+    },
+    {
+      "id": "sleight-of-flesh",
+      "name": "Sleight of Flesh",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Whenever you apply a debuff to an enemy, they take 9 damage.",
+      "categories": [
+        "scaling",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "debuff-synergy",
+        "doom-synergy",
+        "weak-synergy"
+      ]
+    },
+    {
+      "id": "end-of-days",
+      "name": "End of Days",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Apply 29 Doom to ALL enemies. Kill enemies with at least as much Doom as HP.",
+      "categories": [
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "doom-synergy",
+        "win-condition",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "undeath",
+      "name": "Undeath",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Gain 7 Block. Add a copy of this card into your Discard Pile.",
+      "categories": [
+        "defense",
+        "block",
+        "scaling"
+      ],
+      "synergyTags": [
+        "deck-pollution",
+        "zero-cost",
+        "spam"
+      ]
+    },
+    {
+      "id": "fetch",
+      "name": "Fetch",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Osty deals 3 damage. If this is the first time this card has been played this turn, draw 1 card.",
+      "categories": [
+        "attack",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "osty-synergy",
+        "zero-cost",
+        "cycle"
+      ]
+    },
+    {
+      "id": "afterlife",
+      "name": "Afterlife",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Summon 6.",
+      "categories": [
+        "summon",
+        "defense"
+      ],
+      "synergyTags": [
+        "osty-summon"
+      ]
+    },
+    {
+      "id": "grave-warden",
+      "name": "Grave Warden",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 8 Block. Add a Soul into your Draw Pile.",
+      "categories": [
+        "defense",
+        "block",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "soul-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "soul-storm",
+      "name": "Soul Storm",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 9 damage. Deals 2 additional damage for each Soul in your Exhaust Pile.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "soul-synergy",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "bury",
+      "name": "Bury",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "4",
+      "description": "Deal 52 damage.",
+      "categories": [
+        "attack",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Ethereal. Deal 7 damage. Apply 1 Vulnerable.",
+      "categories": [
+        "attack",
+        "debuff"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "vulnerable-synergy"
+      ]
+    },
+    {
+      "id": "graveblast",
+      "name": "Graveblast",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 4 damage. Put a card from your Discard Pile into your Hand. Exhaust.",
+      "categories": [
+        "attack",
+        "utility"
+      ],
+      "synergyTags": [
+        "discard-manipulation",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "protector",
+      "name": "Protector",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Osty deals 10 damage. Deals additional damage equal to Osty's Max HP.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "osty-synergy"
+      ]
+    },
+    {
+      "id": "glimpse-beyond",
+      "name": "Glimpse Beyond",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "ALL players add 3 Souls into their Draw Pile. Exhaust.",
+      "categories": [
+        "card-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "soul-synergy",
+        "exhaust-synergy",
+        "co-op-synergy"
+      ]
+    },
+    {
+      "id": "legion-of-bone",
+      "name": "Legion of Bone",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "ALL players Summon 6. Exhaust.",
+      "categories": [
+        "summon",
+        "defense",
+        "utility"
+      ],
+      "synergyTags": [
+        "osty-summon",
+        "exhaust-synergy",
+        "co-op-synergy"
+      ]
+    },
+    {
+      "id": "devour-life",
+      "name": "Devour Life",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever you play a Soul, Summon 1.",
+      "categories": [
+        "scaling",
+        "summon"
+      ],
+      "synergyTags": [
+        "soul-synergy",
+        "osty-summon"
+      ]
+    },
+    {
+      "id": "misery",
+      "name": "Misery",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Deal 7 damage. Apply any debuffs on the enemy to ALL other enemies.",
+      "categories": [
+        "attack",
+        "aoe",
+        "debuff"
+      ],
+      "synergyTags": [
+        "debuff-synergy",
+        "doom-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "necro-mastery",
+      "name": "Necro Mastery",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Summon 5. Whenever Osty loses HP, ALL enemies lose that much HP as well.",
+      "categories": [
+        "scaling",
+        "summon",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "osty-summon",
+        "osty-synergy"
+      ]
+    },
+    {
+      "id": "sacrifice",
+      "name": "Sacrifice",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Retain. If Osty is alive, he dies and you gain Block equal to double his Max HP.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "retain",
+        "osty-sacrifice",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "squeeze",
+      "name": "Squeeze",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Osty deals 25 damage. Deals 5 additional damage for ALL your other Osty Attacks.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "osty-synergy",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "negative-pulse",
+      "name": "Negative Pulse",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 5 Block. Apply 7 Doom to ALL enemies.",
+      "categories": [
+        "defense",
+        "block",
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "doom-synergy"
+      ]
+    },
+    {
+      "id": "delay",
+      "name": "Delay",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Gain 11 Block. Next turn, gain 1 Energy.",
+      "categories": [
+        "defense",
+        "block",
+        "energy-generation"
+      ],
+      "synergyTags": [
+        "defense-scaling",
+        "next-turn"
+      ]
+    },
+    {
+      "id": "deaths-door",
+      "name": "Death's Door",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 6 Block. If you applied Doom this turn, gain Block 2 additional times.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "doom-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "no-escape",
+      "name": "No Escape",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy.",
+      "categories": [
+        "debuff",
+        "scaling"
+      ],
+      "synergyTags": [
+        "doom-synergy"
+      ]
+    },
+    {
+      "id": "shroud",
+      "name": "Shroud",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever Doom triggers this turn, gain Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "doom-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "high-five",
+      "name": "High Five",
+      "character": "necrobinder",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Osty deals 11 damage and applies 2 Vulnerable to ALL enemies.",
+      "categories": [
+        "attack",
+        "aoe",
+        "debuff"
+      ],
+      "synergyTags": [
+        "osty-synergy",
+        "vulnerable-synergy"
+      ]
+    },
+    {
+      "id": "spur",
+      "name": "Spur",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Retain. Summon 3. Osty heals 5 HP.",
+      "categories": [
+        "summon",
+        "defense",
+        "utility"
+      ],
+      "synergyTags": [
+        "retain",
+        "osty-summon",
+        "osty-synergy"
+      ]
+    },
+    {
+      "id": "seance",
+      "name": "Seance",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Ethereal. Transform a card in your Draw Pile into Soul.",
+      "categories": [
+        "card-transformation",
+        "utility"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "soul-synergy",
+        "deck-manipulation"
+      ]
+    },
+    {
+      "id": "cleanse",
+      "name": "Cleanse",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Summon 3. Exhaust 1 card from your Draw Pile.",
+      "categories": [
+        "summon",
+        "filtering"
+      ],
+      "synergyTags": [
+        "osty-summon",
+        "exhaust-synergy",
+        "deck-manipulation"
+      ]
+    },
+    {
+      "id": "parse",
+      "name": "Parse",
+      "character": "necrobinder",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Ethereal. Draw 3 cards.",
+      "categories": [
+        "card-draw"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "cycle"
+      ]
+    },
+    {
+      "id": "countdown",
+      "name": "Countdown",
+      "character": "necrobinder",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the start of your turn, apply 6 Doom to a random enemy.",
+      "categories": [
+        "scaling",
+        "debuff"
+      ],
+      "synergyTags": [
+        "doom-synergy",
+        "passive-generation"
+      ]
+    }
+  ]
+}

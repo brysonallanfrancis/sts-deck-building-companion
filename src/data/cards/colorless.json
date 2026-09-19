@@ -1,0 +1,319 @@
+{
+  "characters": [
+    {
+      "id": "colorless",
+      "name": "Colorless",
+      "theme": { "primary": "#8a96a3", "secondary": "#495057", "accent": "#e9ecef" }
+    }
+  ],
+  "cards": [
+    {
+      "id": "apotheosis",
+      "name": "Apotheosis",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Upgrade ALL of your cards for the rest of combat. Exhaust.",
+      "categories": ["utility", "scaling"],
+      "synergyTags": ["upgrade", "exhaust-synergy"]
+    },
+    {
+      "id": "master-of-strategy",
+      "name": "Master of Strategy",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Draw 3 cards. Exhaust.",
+      "categories": ["card-draw", "utility"],
+      "synergyTags": ["cycle", "zero-cost", "exhaust-synergy"]
+    },
+    {
+      "id": "secret-technique",
+      "name": "Secret Technique",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Choose a Skill from your draw pile and place it into your hand. Exhaust.",
+      "categories": ["utility", "filtering"],
+      "synergyTags": ["deck-manipulation", "zero-cost", "exhaust-synergy", "skill-synergy"]
+    },
+    {
+      "id": "secret-weapon",
+      "name": "Secret Weapon",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Choose an Attack from your draw pile and place it into your hand. Exhaust.",
+      "categories": ["utility", "filtering"],
+      "synergyTags": ["deck-manipulation", "zero-cost", "exhaust-synergy", "attack-synergy"]
+    },
+    {
+      "id": "the-bomb",
+      "name": "The Bomb",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "At the end of 3 turns, deal 40 damage to ALL enemies.",
+      "categories": ["aoe", "high-damage", "scaling"],
+      "synergyTags": ["delayed-damage", "defense-scaling"]
+    },
+    {
+      "id": "hand-of-greed",
+      "name": "Hand of Greed",
+      "character": "colorless",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Deal 20 damage. If Fatal, gain 20 Gold.",
+      "categories": ["attack", "meta-scaling", "high-damage"],
+      "synergyTags": ["fatal", "gold", "shop-synergy"]
+    },
+    {
+      "id": "sadistic-nature",
+      "name": "Sadistic Nature",
+      "character": "colorless",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Whenever you apply a Debuff to an enemy, they take 5 damage.",
+      "categories": ["scaling", "passive-damage"],
+      "synergyTags": ["debuff-synergy", "weak-synergy", "vulnerable-synergy", "poison-synergy"]
+    },
+    {
+      "id": "panache",
+      "name": "Panache",
+      "character": "colorless",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Every time you play 5 cards in a single turn, deal 10 damage to ALL enemies.",
+      "categories": ["scaling", "aoe", "passive-damage"],
+      "synergyTags": ["spam", "zero-cost", "shiv-synergy", "combo"]
+    },
+    {
+      "id": "magnetism",
+      "name": "Magnetism",
+      "character": "colorless",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "At the start of your turn, add a random Colorless card to your hand.",
+      "categories": ["scaling", "card-generation"],
+      "synergyTags": ["random-generation"]
+    },
+    {
+      "id": "mayhem",
+      "name": "Mayhem",
+      "character": "colorless",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "At the start of your turn, play the top card of your draw pile.",
+      "categories": ["scaling", "utility"],
+      "synergyTags": ["deck-manipulation", "random-generation"]
+    },
+    {
+      "id": "blind",
+      "name": "Blind",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Apply 2 Weak.",
+      "categories": ["debuff", "defense"],
+      "synergyTags": ["weak-synergy", "zero-cost"]
+    },
+    {
+      "id": "trip",
+      "name": "Trip",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Apply 2 Vulnerable to ALL enemies.",
+      "categories": ["debuff", "aoe"],
+      "synergyTags": ["vulnerable-synergy", "zero-cost"]
+    },
+    {
+      "id": "dark-shackles",
+      "name": "Dark Shackles",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Enemy loses 9 Strength for the rest of this turn. Exhaust.",
+      "categories": ["defense", "debuff"],
+      "synergyTags": ["multi-hit-counter", "zero-cost", "exhaust-synergy"]
+    },
+    {
+      "id": "panic-button",
+      "name": "Panic Button",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Gain 30 Block. You cannot gain Block from cards for the next 2 turns.",
+      "categories": ["defense", "block"],
+      "synergyTags": ["zero-cost", "self-debuff", "burst-defense"]
+    },
+    {
+      "id": "finesse",
+      "name": "Finesse",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Gain 2 Block. Draw 1 card.",
+      "categories": ["defense", "block", "card-draw"],
+      "synergyTags": ["cycle", "zero-cost", "spam"]
+    },
+    {
+      "id": "flash-of-steel",
+      "name": "Flash of Steel",
+      "character": "colorless",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Deal 3 damage. Draw 1 card.",
+      "categories": ["attack", "card-draw"],
+      "synergyTags": ["cycle", "zero-cost", "spam", "infinite-enabler"]
+    },
+    {
+      "id": "deep-breath",
+      "name": "Deep Breath",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Shuffle your discard pile into your draw pile. Draw 1 card.",
+      "categories": ["utility", "card-draw"],
+      "synergyTags": ["deck-manipulation", "cycle", "zero-cost"]
+    },
+    {
+      "id": "bandage-up",
+      "name": "Bandage Up",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Heal 4 HP. Exhaust.",
+      "categories": ["healing", "utility"],
+      "synergyTags": ["healing", "exhaust-synergy", "zero-cost"]
+    },
+    {
+      "id": "enlightenment",
+      "name": "Enlightenment",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Reduce the cost of cards in your hand to 1 this turn.",
+      "categories": ["utility", "energy-generation"],
+      "synergyTags": ["cost-reduction", "high-cost-synergy", "zero-cost"]
+    },
+    {
+      "id": "purity",
+      "name": "Purity",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Choose and exhaust up to 3 cards in your hand. Exhaust.",
+      "categories": ["filtering", "utility"],
+      "synergyTags": ["exhaust-synergy", "deck-manipulation", "zero-cost"]
+    },
+    {
+      "id": "good-instincts",
+      "name": "Good Instincts",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Gain 6 Block.",
+      "categories": ["defense", "block"],
+      "synergyTags": ["zero-cost", "defense-scaling"]
+    },
+    {
+      "id": "swift-strike",
+      "name": "Swift Strike",
+      "character": "colorless",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Deal 7 damage.",
+      "categories": ["attack"],
+      "synergyTags": ["zero-cost"]
+    },
+    {
+      "id": "jack-of-all-trades",
+      "name": "Jack of All Trades",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Add 1 random Colorless card to your hand. Exhaust.",
+      "categories": ["card-generation", "utility"],
+      "synergyTags": ["random-generation", "exhaust-synergy", "zero-cost"]
+    },
+    {
+      "id": "discovery",
+      "name": "Discovery",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Choose 1 of 3 random cards to add to your hand. It costs 0 this turn. Exhaust.",
+      "categories": ["card-generation", "utility"],
+      "synergyTags": ["random-generation", "exhaust-synergy", "flexibility"]
+    },
+    {
+      "id": "chrysalis",
+      "name": "Chrysalis",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Add 3 random Skills into your Draw Pile. They cost 0 this combat. Exhaust.",
+      "categories": ["card-generation", "scaling"],
+      "synergyTags": ["random-generation", "cost-reduction", "exhaust-synergy", "skill-synergy"]
+    },
+    {
+      "id": "metamorphosis",
+      "name": "Metamorphosis",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Add 3 random Attacks into your Draw Pile. They cost 0 this combat. Exhaust.",
+      "categories": ["card-generation", "scaling"],
+      "synergyTags": ["random-generation", "cost-reduction", "exhaust-synergy", "attack-synergy"]
+    },
+    {
+      "id": "mind-blast",
+      "name": "Mind Blast",
+      "character": "colorless",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Innate. Deal damage equal to the number of cards in your draw pile.",
+      "categories": ["attack", "scaling"],
+      "synergyTags": ["innate", "deck-size-synergy"]
+    },
+    {
+      "id": "thinking-ahead",
+      "name": "Thinking Ahead",
+      "character": "colorless",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust.",
+      "categories": ["card-draw", "filtering"],
+      "synergyTags": ["cycle", "deck-manipulation", "zero-cost", "exhaust-synergy"]
+    }
+  ]
+}

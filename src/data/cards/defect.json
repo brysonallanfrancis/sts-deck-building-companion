@@ -1,0 +1,826 @@
+{
+  "characters": [
+    {
+      "id": "defect",
+      "name": "Defect",
+      "theme": {
+        "primary": "#2e5cb0",
+        "secondary": "#1a243a",
+        "accent": "#4be8b8"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "strike-defect",
+      "name": "Strike",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Deal 6 damage.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": "defend-defect",
+      "name": "Defend",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Gain 5 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": "zap",
+      "name": "Zap",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Channel 1 Lightning.",
+      "categories": [
+        "orb-generation",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "orb-lightning",
+        "basic"
+      ]
+    },
+    {
+      "id": "dualcast",
+      "name": "Dualcast",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Evoke your next Orb twice.",
+      "categories": [
+        "utility",
+        "damage",
+        "defense"
+      ],
+      "synergyTags": [
+        "evoke-synergy",
+        "basic"
+      ]
+    },
+    {
+      "id": "ball-lightning",
+      "name": "Ball Lightning",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 7 damage. Channel 1 Lightning.",
+      "categories": [
+        "attack",
+        "orb-generation"
+      ],
+      "synergyTags": [
+        "orb-lightning"
+      ]
+    },
+    {
+      "id": "cold-snap",
+      "name": "Cold Snap",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 6 damage. Channel 1 Frost.",
+      "categories": [
+        "attack",
+        "orb-generation",
+        "defense"
+      ],
+      "synergyTags": [
+        "orb-frost"
+      ]
+    },
+    {
+      "id": "claw",
+      "name": "Claw",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Deal 3 damage. Increase the damage of ALL Claw cards by 2 this combat.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "claw-synergy",
+        "zero-cost",
+        "spam"
+      ]
+    },
+    {
+      "id": "beam-cell",
+      "name": "Beam Cell",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Deal 3 damage. Apply 1 Vulnerable.",
+      "categories": [
+        "attack",
+        "debuff"
+      ],
+      "synergyTags": [
+        "vulnerable-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "sweeping-beam",
+      "name": "Sweeping Beam",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 6 damage to ALL enemies. Draw 1 card.",
+      "categories": [
+        "attack",
+        "aoe",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "aoe",
+        "cycle"
+      ]
+    },
+    {
+      "id": "rebound",
+      "name": "Rebound",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 9 damage. Put the next card you play this turn on top of your draw pile.",
+      "categories": [
+        "attack",
+        "utility"
+      ],
+      "synergyTags": [
+        "deck-manipulation",
+        "zero-cost-synergy"
+      ]
+    },
+    {
+      "id": "go-for-the-eyes",
+      "name": "Go for the Eyes",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Deal 3 damage. If the enemy intends to attack, apply 1 Weak.",
+      "categories": [
+        "attack",
+        "debuff",
+        "defense"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "charge-battery",
+      "name": "Charge Battery",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 7 Block. Next turn, gain 1 Energy.",
+      "categories": [
+        "defense",
+        "block",
+        "energy-generation"
+      ],
+      "synergyTags": [
+        "defense-scaling",
+        "next-turn"
+      ]
+    },
+    {
+      "id": "leap",
+      "name": "Leap",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 9 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "hologram",
+      "name": "Hologram",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 3 Block. Return a card from your discard pile to your hand. Exhaust.",
+      "categories": [
+        "defense",
+        "block",
+        "utility"
+      ],
+      "synergyTags": [
+        "discard-manipulation",
+        "combo"
+      ]
+    },
+    {
+      "id": "turbo",
+      "name": "TURBO",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Gain 2 Energy. Add a Void into your discard pile.",
+      "categories": [
+        "energy-generation"
+      ],
+      "synergyTags": [
+        "zero-cost",
+        "status-generation"
+      ]
+    },
+    {
+      "id": "doom-and-gloom",
+      "name": "Doom and Gloom",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Deal 10 damage to ALL enemies. Channel 1 Dark.",
+      "categories": [
+        "attack",
+        "aoe",
+        "orb-generation"
+      ],
+      "synergyTags": [
+        "aoe",
+        "orb-dark"
+      ]
+    },
+    {
+      "id": "sunder",
+      "name": "Sunder",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "3",
+      "description": "Deal 24 damage. If this kills the enemy, gain 3 Energy.",
+      "categories": [
+        "attack",
+        "high-damage",
+        "energy-generation"
+      ],
+      "synergyTags": [
+        "fatal",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "barrage",
+      "name": "Barrage",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 4 damage for each Channeled Orb.",
+      "categories": [
+        "attack",
+        "multi-hit"
+      ],
+      "synergyTags": [
+        "orb-synergy",
+        "orb-slot",
+        "multi-hit-synergy"
+      ]
+    },
+    {
+      "id": "blizzard",
+      "name": "Blizzard",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal damage equal to 2 times the number of Frost Channeled this combat to ALL enemies.",
+      "categories": [
+        "attack",
+        "aoe",
+        "scaling"
+      ],
+      "synergyTags": [
+        "orb-frost",
+        "aoe"
+      ]
+    },
+    {
+      "id": "melter",
+      "name": "Melter",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Remove all Block from an enemy. Deal 10 damage.",
+      "categories": [
+        "attack",
+        "utility"
+      ],
+      "synergyTags": [
+        "shield-break"
+      ]
+    },
+    {
+      "id": "glacier",
+      "name": "Glacier",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Gain 7 Block. Channel 2 Frost.",
+      "categories": [
+        "defense",
+        "block",
+        "orb-generation"
+      ],
+      "synergyTags": [
+        "orb-frost",
+        "focus-synergy"
+      ]
+    },
+    {
+      "id": "chill",
+      "name": "Chill",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Innate. Channel 1 Frost for each enemy in combat. Exhaust.",
+      "categories": [
+        "orb-generation",
+        "defense"
+      ],
+      "synergyTags": [
+        "orb-frost",
+        "innate",
+        "exhaust-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "consume",
+      "name": "Consume",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Gain 2 Focus. Lose 1 Orb Slot.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "focus-synergy",
+        "orb-slot-reduction"
+      ]
+    },
+    {
+      "id": "skim",
+      "name": "Skim",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Draw 3 cards.",
+      "categories": [
+        "card-draw"
+      ],
+      "synergyTags": [
+        "cycle"
+      ]
+    },
+    {
+      "id": "genetic-algorithm",
+      "name": "Genetic Algorithm",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 1 Block. Permanently increase this card's Block by 2. Exhaust.",
+      "categories": [
+        "defense",
+        "block",
+        "meta-scaling"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "white-noise",
+      "name": "White Noise",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Add a random Power to your hand. It costs 0 this turn. Exhaust.",
+      "categories": [
+        "card-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "power-synergy",
+        "exhaust-synergy",
+        "random-generation"
+      ]
+    },
+    {
+      "id": "modded",
+      "name": "Modded",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Gain 1 Orb Slot. Draw 1 card. Increase this card's cost by 1.",
+      "categories": [
+        "scaling",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "orb-slot",
+        "cost-modification"
+      ]
+    },
+    {
+      "id": "defragment",
+      "name": "Defragment",
+      "character": "defect",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 1 Focus.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "focus-synergy",
+        "orb-synergy"
+      ]
+    },
+    {
+      "id": "spinner",
+      "name": "Spinner",
+      "character": "defect",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the start of your turn, Channel 1 Glass.",
+      "categories": [
+        "scaling",
+        "orb-generation"
+      ],
+      "synergyTags": [
+        "orb-glass",
+        "passive-generation"
+      ]
+    },
+    {
+      "id": "loop",
+      "name": "Loop",
+      "character": "defect",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the start of your turn, trigger the passive ability of your next Orb.",
+      "categories": [
+        "scaling",
+        "passive-damage",
+        "defense"
+      ],
+      "synergyTags": [
+        "orb-synergy"
+      ]
+    },
+    {
+      "id": "capacitor",
+      "name": "Capacitor",
+      "character": "defect",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 2 Orb Slots.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "orb-slot"
+      ]
+    },
+    {
+      "id": "heatsinks",
+      "name": "Heatsinks",
+      "character": "defect",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever you play a Power card, draw 1 card.",
+      "categories": [
+        "card-draw",
+        "scaling"
+      ],
+      "synergyTags": [
+        "power-synergy",
+        "cycle"
+      ]
+    },
+    {
+      "id": "storm",
+      "name": "Storm",
+      "character": "defect",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Innate. Whenever you play a Power, Channel 1 Lightning.",
+      "categories": [
+        "scaling",
+        "orb-generation"
+      ],
+      "synergyTags": [
+        "power-synergy",
+        "orb-lightning",
+        "innate"
+      ]
+    },
+    {
+      "id": "network",
+      "name": "Network",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "The next time another player Channels an Orb this combat, you also Channel it.",
+      "categories": [
+        "orb-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "co-op-synergy",
+        "orb-synergy"
+      ]
+    },
+    {
+      "id": "meteor-strike",
+      "name": "Meteor Strike",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "5",
+      "description": "Deal 24 damage. Channel 3 Plasma.",
+      "categories": [
+        "attack",
+        "high-damage",
+        "orb-generation"
+      ],
+      "synergyTags": [
+        "orb-plasma",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "hyperbeam",
+      "name": "Hyperbeam",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Deal 26 damage to ALL enemies. Lose 3 Focus.",
+      "categories": [
+        "attack",
+        "aoe",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "aoe",
+        "focus-loss"
+      ]
+    },
+    {
+      "id": "thunder-strike",
+      "name": "Thunder Strike",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Deal 7 damage to a random enemy for each Lightning Channeled this combat.",
+      "categories": [
+        "attack",
+        "multi-hit",
+        "scaling"
+      ],
+      "synergyTags": [
+        "orb-lightning",
+        "multi-hit-synergy"
+      ]
+    },
+    {
+      "id": "core-surge",
+      "name": "Core Surge",
+      "character": "defect",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "Deal 11 damage. Gain 1 Artifact. Exhaust.",
+      "categories": [
+        "attack",
+        "defense"
+      ],
+      "synergyTags": [
+        "artifact",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "seek",
+      "name": "Seek",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Choose 1 card from your draw pile and place it into your hand. Exhaust.",
+      "categories": [
+        "filtering",
+        "utility"
+      ],
+      "synergyTags": [
+        "deck-manipulation",
+        "exhaust-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "fission",
+      "name": "Fission",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Remove ALL of your Orbs. Gain 1 Energy and draw 1 card for each Orb removed. Exhaust.",
+      "categories": [
+        "energy-generation",
+        "card-draw",
+        "utility"
+      ],
+      "synergyTags": [
+        "orb-removal",
+        "exhaust-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "multi-cast",
+      "name": "Multi-Cast",
+      "character": "defect",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "X",
+      "description": "Evoke your next Orb X times.",
+      "categories": [
+        "utility",
+        "damage",
+        "defense"
+      ],
+      "synergyTags": [
+        "x-cost",
+        "evoke-synergy"
+      ]
+    },
+    {
+      "id": "echo-form",
+      "name": "Echo Form",
+      "character": "defect",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Ethereal. The first card you play each turn is played twice.",
+      "categories": [
+        "scaling",
+        "duplication"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "biased-cognition",
+      "name": "Biased Cognition",
+      "character": "defect",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "Gain 4 Focus. At the start of your turn, lose 1 Focus.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "focus-synergy",
+        "focus-loss"
+      ]
+    },
+    {
+      "id": "electrodynamics",
+      "name": "Electrodynamics",
+      "character": "defect",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Lightning now hits ALL enemies. Channel 2 Lightning.",
+      "categories": [
+        "scaling",
+        "aoe",
+        "orb-generation"
+      ],
+      "synergyTags": [
+        "orb-lightning",
+        "aoe"
+      ]
+    },
+    {
+      "id": "creative-ai",
+      "name": "Creative AI",
+      "character": "defect",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "At the start of your turn, add a random Power card to your hand.",
+      "categories": [
+        "scaling",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "power-synergy",
+        "random-generation",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "buffer",
+      "name": "Buffer",
+      "character": "defect",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Prevent the next time you would lose HP.",
+      "categories": [
+        "defense",
+        "scaling"
+      ],
+      "synergyTags": [
+        "damage-prevention"
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "character": "defect",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "Innate. At the start of your turn, draw 1 additional card.",
+      "categories": [
+        "scaling",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "innate",
+        "cycle"
+      ]
+    }
+  ]
+}

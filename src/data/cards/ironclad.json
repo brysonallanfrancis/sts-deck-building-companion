@@ -1,0 +1,957 @@
+{
+  "characters": [
+    {
+      "id": "ironclad",
+      "name": "Ironclad",
+      "theme": {
+        "primary": "#b02e2e",
+        "secondary": "#3a1a1a",
+        "accent": "#e8b84b"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "strike-ironclad",
+      "name": "Strike",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Deal 6 damage.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "basic",
+        "strike-synergy"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": "defend-ironclad",
+      "name": "Defend",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Gain 5 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": "bash",
+      "name": "Bash",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "2",
+      "description": "Deal 8 damage. Apply 2 Vulnerable.",
+      "categories": [
+        "attack",
+        "debuff"
+      ],
+      "synergyTags": [
+        "vulnerable-synergy",
+        "basic"
+      ]
+    },
+    {
+      "id": "anger",
+      "name": "Anger",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Deal 6 damage. Add a copy of this card into your discard pile.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "zero-cost",
+        "deck-pollution",
+        "spam"
+      ]
+    },
+    {
+      "id": "armaments",
+      "name": "Armaments",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 5 Block. Upgrade a card in your hand for the rest of combat.",
+      "categories": [
+        "defense",
+        "block",
+        "utility"
+      ],
+      "synergyTags": [
+        "upgrade",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "body-slam",
+      "name": "Body Slam",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal damage equal to your Block.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "block-synergy",
+        "barricade-synergy"
+      ]
+    },
+    {
+      "id": "clash",
+      "name": "Clash",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Can only be played if every card in your hand is an Attack. Deal 14 damage.",
+      "categories": [
+        "attack",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "zero-cost",
+        "exhaust-synergy",
+        "conditional"
+      ]
+    },
+    {
+      "id": "cleave",
+      "name": "Cleave",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 8 damage to ALL enemies.",
+      "categories": [
+        "attack",
+        "aoe"
+      ],
+      "synergyTags": [
+        "aoe",
+        "strength-scaling"
+      ]
+    },
+    {
+      "id": "clothesline",
+      "name": "Clothesline",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "2",
+      "description": "Deal 12 damage. Apply 2 Weak.",
+      "categories": [
+        "attack",
+        "debuff",
+        "defense"
+      ],
+      "synergyTags": [
+        "weak-synergy"
+      ]
+    },
+    {
+      "id": "headbutt",
+      "name": "Headbutt",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 9 damage. Put a card from your discard pile on top of your draw pile.",
+      "categories": [
+        "attack",
+        "utility"
+      ],
+      "synergyTags": [
+        "deck-manipulation",
+        "combo"
+      ]
+    },
+    {
+      "id": "heavy-blade",
+      "name": "Heavy Blade",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "2",
+      "description": "Deal 14 damage. Strength affects this card 3 times.",
+      "categories": [
+        "attack",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "strength-scaling"
+      ]
+    },
+    {
+      "id": "iron-wave",
+      "name": "Iron Wave",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 5 Block. Deal 5 damage.",
+      "categories": [
+        "attack",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "block-synergy"
+      ]
+    },
+    {
+      "id": "perfected-strike",
+      "name": "Perfected Strike",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "2",
+      "description": "Deal 6 damage. Deals an additional 2 damage for ALL of your cards containing \"Strike\".",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "strike-synergy"
+      ]
+    },
+    {
+      "id": "pommel-strike",
+      "name": "Pommel Strike",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 9 damage. Draw 1 card.",
+      "categories": [
+        "attack",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "cycle",
+        "strike-synergy"
+      ]
+    },
+    {
+      "id": "shrug-it-off",
+      "name": "Shrug It Off",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 8 Block. Draw 1 card.",
+      "categories": [
+        "defense",
+        "block",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "cycle",
+        "block-synergy"
+      ]
+    },
+    {
+      "id": "sword-boomerang",
+      "name": "Sword Boomerang",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 3 damage to a random enemy 3 times.",
+      "categories": [
+        "attack",
+        "multi-hit"
+      ],
+      "synergyTags": [
+        "strength-scaling",
+        "multi-hit-synergy"
+      ]
+    },
+    {
+      "id": "true-grit",
+      "name": "True Grit",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 7 Block. Exhaust a random card in your hand.",
+      "categories": [
+        "defense",
+        "block",
+        "filtering"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "deck-manipulation"
+      ]
+    },
+    {
+      "id": "twin-strike",
+      "name": "Twin Strike",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 5 damage twice.",
+      "categories": [
+        "attack",
+        "multi-hit"
+      ],
+      "synergyTags": [
+        "strength-scaling",
+        "multi-hit-synergy",
+        "strike-synergy"
+      ]
+    },
+    {
+      "id": "bloodletting",
+      "name": "Bloodletting",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Lose 3 HP. Gain 2 Energy.",
+      "categories": [
+        "energy-generation"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "blood-wall",
+      "name": "Blood Wall",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Lose 2 HP. Gain 12 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "battle-trance",
+      "name": "Battle Trance",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Draw 3 cards. You cannot draw any more cards this turn.",
+      "categories": [
+        "card-draw"
+      ],
+      "synergyTags": [
+        "cycle",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "blood-for-blood",
+      "name": "Blood for Blood",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "4",
+      "description": "Costs 1 less for each time you lose HP this combat. Deal 18 damage.",
+      "categories": [
+        "attack",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "cost-reduction"
+      ]
+    },
+    {
+      "id": "burning-pact",
+      "name": "Burning Pact",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Exhaust 1 card. Draw 2 cards.",
+      "categories": [
+        "card-draw",
+        "filtering"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "deck-manipulation"
+      ]
+    },
+    {
+      "id": "carnage",
+      "name": "Carnage",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Ethereal. Deal 20 damage.",
+      "categories": [
+        "attack",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "ethereal-synergy",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "combust",
+      "name": "Combust",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the end of your turn, lose 1 HP and deal 5 damage to ALL enemies.",
+      "categories": [
+        "scaling",
+        "aoe",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "aoe"
+      ]
+    },
+    {
+      "id": "dark-embrace",
+      "name": "Dark Embrace",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Whenever a card is Exhausted, draw 1 card.",
+      "categories": [
+        "scaling",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "cycle"
+      ]
+    },
+    {
+      "id": "disarm",
+      "name": "Disarm",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Enemy loses 2 Strength. Exhaust.",
+      "categories": [
+        "defense",
+        "debuff"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "multi-hit-counter"
+      ]
+    },
+    {
+      "id": "dropkick",
+      "name": "Dropkick",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 5 damage. If the enemy is Vulnerable, gain 1 Energy and draw 1 card.",
+      "categories": [
+        "attack",
+        "energy-generation",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "vulnerable-synergy",
+        "combo",
+        "infinite-enabler"
+      ]
+    },
+    {
+      "id": "entrench",
+      "name": "Entrench",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Double your Block.",
+      "categories": [
+        "defense",
+        "block",
+        "scaling"
+      ],
+      "synergyTags": [
+        "block-synergy",
+        "barricade-synergy"
+      ]
+    },
+    {
+      "id": "feel-no-pain",
+      "name": "Feel No Pain",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever a card is Exhausted, gain 3 Block.",
+      "categories": [
+        "scaling",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "flame-barrier",
+      "name": "Flame Barrier",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Gain 12 Block. Whenever you are attacked this turn, deal 4 damage back.",
+      "categories": [
+        "defense",
+        "block",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "defense-scaling",
+        "multi-hit-counter"
+      ]
+    },
+    {
+      "id": "ghostly-armor",
+      "name": "Ghostly Armor",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Ethereal. Gain 10 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "ethereal-synergy",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "inflame",
+      "name": "Inflame",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 2 Strength.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "strength-scaling"
+      ]
+    },
+    {
+      "id": "rupture",
+      "name": "Rupture",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever you lose HP from a card, gain 1 Strength.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "strength-scaling"
+      ]
+    },
+    {
+      "id": "shockwave",
+      "name": "Shockwave",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Apply 3 Weak and 3 Vulnerable to ALL enemies. Exhaust.",
+      "categories": [
+        "debuff",
+        "aoe",
+        "defense"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "vulnerable-synergy",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "uppercut",
+      "name": "Uppercut",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Deal 13 damage. Apply 1 Weak. Apply 1 Vulnerable.",
+      "categories": [
+        "attack",
+        "debuff",
+        "defense"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "vulnerable-synergy"
+      ]
+    },
+    {
+      "id": "whirlwind",
+      "name": "Whirlwind",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "X",
+      "description": "Deal 5 damage to ALL enemies X times.",
+      "categories": [
+        "attack",
+        "aoe",
+        "multi-hit"
+      ],
+      "synergyTags": [
+        "x-cost",
+        "strength-scaling"
+      ]
+    },
+    {
+      "id": "crimson-mantle",
+      "name": "Crimson Mantle",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the start of your turn, lose 1 HP and gain 8 Block.",
+      "categories": [
+        "defense",
+        "block",
+        "scaling"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "dominate",
+      "name": "Dominate",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Apply 1 Vulnerable. Gain 1 Strength for each Vulnerable on the enemy. Exhaust.",
+      "categories": [
+        "debuff",
+        "scaling"
+      ],
+      "synergyTags": [
+        "vulnerable-synergy",
+        "strength-scaling",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "ashen-strike",
+      "name": "Ashen Strike",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 6 damage. Deals 3 additional damage for each card in your Exhaust Pile.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "strike-synergy"
+      ]
+    },
+    {
+      "id": "colossus",
+      "name": "Colossus",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 5 Block. You receive 50% less damage from Vulnerable enemies this turn.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "vulnerable-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "barricade",
+      "name": "Barricade",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Block is not removed at the start of your turn.",
+      "categories": [
+        "scaling",
+        "defense"
+      ],
+      "synergyTags": [
+        "block-synergy",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "corruption",
+      "name": "Corruption",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Skills cost 0. Whenever you play a Skill, Exhaust it.",
+      "categories": [
+        "scaling",
+        "energy-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "skill-synergy",
+        "win-condition"
+      ]
+    },
+    {
+      "id": "demon-form",
+      "name": "Demon Form",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "At the start of your turn, gain 2 Strength.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "strength-scaling",
+        "high-cost-synergy",
+        "win-condition"
+      ]
+    },
+    {
+      "id": "feed",
+      "name": "Feed",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "Deal 10 damage. If Fatal, raise your Max HP by 3. Exhaust.",
+      "categories": [
+        "attack",
+        "meta-scaling"
+      ],
+      "synergyTags": [
+        "fatal-synergy",
+        "max-hp",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "fiend-fire",
+      "name": "Fiend Fire",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Exhaust your hand. Deal 7 damage for each Exhausted card. Exhaust.",
+      "categories": [
+        "attack",
+        "multi-hit",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "hand-manipulation",
+        "strength-scaling"
+      ]
+    },
+    {
+      "id": "impervious",
+      "name": "Impervious",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Gain 30 Block. Exhaust.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "limit-break",
+      "name": "Limit Break",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "Double your Strength. Exhaust.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "strength-scaling",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "offering",
+      "name": "Offering",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Lose 6 HP. Gain 2 Energy. Draw 3 cards. Exhaust.",
+      "categories": [
+        "energy-generation",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "exhaust-synergy",
+        "cycle",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Deal 4 damage to ALL enemies. Heal HP equal to unblocked damage dealt. Exhaust.",
+      "categories": [
+        "attack",
+        "aoe",
+        "defense"
+      ],
+      "synergyTags": [
+        "strength-scaling",
+        "exhaust-synergy",
+        "healing"
+      ]
+    },
+    {
+      "id": "eradicate",
+      "name": "Eradicate",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "X",
+      "description": "Retain. Deal 11 damage X times.",
+      "categories": [
+        "attack",
+        "multi-hit",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "x-cost",
+        "retain",
+        "strength-scaling"
+      ]
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "character": "ironclad",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Lose 1 HP. Exhaust 1 card. Gain 1 Strength.",
+      "categories": [
+        "scaling",
+        "filtering"
+      ],
+      "synergyTags": [
+        "hp-loss",
+        "exhaust-synergy",
+        "strength-scaling",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "pyre",
+      "name": "Pyre",
+      "character": "ironclad",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Gain 1 Energy at the start of each turn.",
+      "categories": [
+        "scaling",
+        "energy-generation"
+      ],
+      "synergyTags": [
+        "passive-generation"
+      ]
+    },
+    {
+      "id": "midnight",
+      "name": "Midnight",
+      "character": "ironclad",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "12",
+      "description": "Deal 60 damage. Costs 1 less for each card Exhausted this combat by ANYONE.",
+      "categories": [
+        "attack",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "cost-reduction",
+        "co-op-synergy",
+        "win-condition"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "characters": [
+    {
+      "id": "regent",
+      "name": "Regent",
+      "theme": {
+        "primary": "#b0852e",
+        "secondary": "#3a2c1a",
+        "accent": "#e8d94b"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "strike-regent",
+      "name": "Strike",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Deal 6 damage.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": "defend-regent",
+      "name": "Defend",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Gain 5 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": "tax",
+      "name": "Tax",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Apply 1 Weak. Forge 3.",
+      "categories": [
+        "debuff",
+        "scaling"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "forge",
+        "basic"
+      ]
+    },
+    {
+      "id": "command",
+      "name": "Command",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "2",
+      "description": "Deal 10 damage. Transform a card in your hand into a Minion Strike.",
+      "categories": [
+        "attack",
+        "card-transformation"
+      ],
+      "synergyTags": [
+        "minions",
+        "basic"
+      ]
+    },
+    {
+      "id": "make-it-so",
+      "name": "Make It So",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Deal 6 damage. Every 3 Skills you play in a turn, put this into your Hand.",
+      "categories": [
+        "attack",
+        "recursion"
+      ],
+      "synergyTags": [
+        "skill-spam",
+        "combo",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "guards",
+      "name": "GUARDS!!!",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Transform any number of cards in your Hand into Minion Sacrifice. Exhaust.",
+      "categories": [
+        "card-transformation",
+        "defense"
+      ],
+      "synergyTags": [
+        "minions",
+        "exhaust-synergy",
+        "hand-manipulation"
+      ]
+    },
+    {
+      "id": "charge",
+      "name": "CHARGE!!",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Choose 2 cards in your Draw Pile to Transform into Minion Dive Bombs.",
+      "categories": [
+        "card-transformation",
+        "deck-manipulation"
+      ],
+      "synergyTags": [
+        "minions",
+        "combo"
+      ]
+    },
+    {
+      "id": "bulwark",
+      "name": "Bulwark",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Gain 12 Block. Forge 10.",
+      "categories": [
+        "defense",
+        "block",
+        "scaling"
+      ],
+      "synergyTags": [
+        "forge",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "big-bang",
+      "name": "Big Bang",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Draw 1 card. Gain 2 Energy. Forge 5. Exhaust.",
+      "categories": [
+        "energy-generation",
+        "card-draw",
+        "scaling"
+      ],
+      "synergyTags": [
+        "forge",
+        "exhaust-synergy",
+        "cycle",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "demesne",
+      "name": "Demesne",
+      "character": "regent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Ethereal. At the start of your turn, gain 1 Energy and draw 1 additional card.",
+      "categories": [
+        "scaling",
+        "energy-generation",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "ethereal",
+        "cycle",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "requisition",
+      "name": "Requisition",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Draw 2 cards. Forge 4.",
+      "categories": [
+        "card-draw",
+        "scaling"
+      ],
+      "synergyTags": [
+        "forge",
+        "cycle"
+      ]
+    },
+    {
+      "id": "execute",
+      "name": "Execute",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "2",
+      "description": "Deal 14 damage. If this kills the enemy, Forge 15.",
+      "categories": [
+        "attack",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "fatal-synergy",
+        "forge"
+      ]
+    },
+    {
+      "id": "garrison",
+      "name": "Garrison",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 7 Block. If your Forge is 20 or higher, gain an additional 7 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "forge",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "phalanx",
+      "name": "Phalanx",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 6 damage. Gain Block equal to unblocked damage dealt.",
+      "categories": [
+        "attack",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "subsidize",
+      "name": "Subsidize",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Spend 10 Forge. Gain 2 Energy.",
+      "categories": [
+        "energy-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "forge",
+        "forge-spender"
+      ]
+    },
+    {
+      "id": "vanguard",
+      "name": "Vanguard",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 5 damage twice. Forge 2 for each time you strike.",
+      "categories": [
+        "attack",
+        "multi-hit",
+        "scaling"
+      ],
+      "synergyTags": [
+        "forge",
+        "multi-hit-synergy"
+      ]
+    },
+    {
+      "id": "treasury",
+      "name": "Treasury",
+      "character": "regent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "At the start of your turn, Forge 6.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "forge",
+        "passive-generation"
+      ]
+    },
+    {
+      "id": "royal-decree",
+      "name": "Royal Decree",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Spend ALL Forge. Deal damage to ALL enemies equal to the Forge spent.",
+      "categories": [
+        "aoe",
+        "high-damage",
+        "utility"
+      ],
+      "synergyTags": [
+        "forge",
+        "forge-spender",
+        "win-condition"
+      ]
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership",
+      "character": "regent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Whenever you play a Minion card, draw 1 card.",
+      "categories": [
+        "scaling",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "minions",
+        "cycle"
+      ]
+    },
+    {
+      "id": "promote",
+      "name": "Promote",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Upgrade a Minion card in your hand for the rest of combat. It costs 0 this turn.",
+      "categories": [
+        "utility",
+        "scaling"
+      ],
+      "synergyTags": [
+        "minions",
+        "upgrade",
+        "cost-reduction"
+      ]
+    },
+    {
+      "id": "monopoly",
+      "name": "Monopoly",
+      "character": "regent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever you gain Forge, gain 1 Block.",
+      "categories": [
+        "scaling",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "forge",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "rally",
+      "name": "Rally",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 5 Block. Return a Minion card from your Discard Pile to your Hand.",
+      "categories": [
+        "defense",
+        "block",
+        "utility"
+      ],
+      "synergyTags": [
+        "minions",
+        "discard-manipulation"
+      ]
+    },
+    {
+      "id": "blitz",
+      "name": "Blitz",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 8 damage. If you have played 3 or more Skills this turn, deal 8 damage to ALL enemies instead.",
+      "categories": [
+        "attack",
+        "aoe"
+      ],
+      "synergyTags": [
+        "skill-spam",
+        "conditional"
+      ]
+    },
+    {
+      "id": "flank",
+      "name": "Flank",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Deal 4 damage. Draw 1 card. Discard 1 card.",
+      "categories": [
+        "attack",
+        "filtering",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "cycle",
+        "discard-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "invest",
+      "name": "Invest",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Double your current Forge. Exhaust.",
+      "categories": [
+        "scaling",
+        "utility"
+      ],
+      "synergyTags": [
+        "forge",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "tyranny",
+      "name": "Tyranny",
+      "character": "regent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "At the start of your turn, Transform a random card in your hand into a Minion Executioner.",
+      "categories": [
+        "scaling",
+        "card-transformation"
+      ],
+      "synergyTags": [
+        "minions",
+        "high-cost-synergy"
+      ]
+    },
+    {
+      "id": "embargo",
+      "name": "Embargo",
+      "character": "regent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Apply 3 Weak and 3 Vulnerable to an enemy. Spend 10 Forge to apply this to ALL enemies instead.",
+      "categories": [
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "vulnerable-synergy",
+        "forge-spender"
+      ]
+    },
+    {
+      "id": "consulate",
+      "name": "Consulate",
+      "character": "regent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Whenever another player plays a Skill, Forge 2.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "co-op-synergy",
+        "forge",
+        "skill-spam"
+      ]
+    },
+    {
+      "id": "sovereign",
+      "name": "Sovereign",
+      "character": "regent",
+      "type": "rare",
+      "cost": "2",
+      "description": "Skills played by ANY player this turn cost 1 less.",
+      "categories": [
+        "utility"
+      ],
+      "synergyTags": [
+        "co-op-synergy",
+        "cost-reduction",
+        "skill-spam"
+      ]
+    },
+    {
+      "id": "gilded-blade",
+      "name": "Gilded Blade",
+      "character": "regent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal damage equal to 10% of your current Forge.",
+      "categories": [
+        "attack",
+        "scaling"
+      ],
+      "synergyTags": [
+        "forge",
+        "high-damage"
+      ]
+    }
+  ]
+}

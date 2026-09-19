@@ -1,0 +1,1097 @@
+{
+  "characters": [
+    {
+      "id": "silent",
+      "name": "Silent",
+      "theme": {
+        "primary": "#2e8b57",
+        "secondary": "#1a3a24",
+        "accent": "#b8e84b"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "strike-silent",
+      "name": "Strike",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Deal 6 damage.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": "defend-silent",
+      "name": "Defend",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Gain 5 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "basic"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": "neutralize",
+      "name": "Neutralize",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "basic",
+      "cost": "0",
+      "description": "Deal 3 damage. Apply 1 Weak.",
+      "categories": [
+        "attack",
+        "debuff"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "survivor",
+      "name": "Survivor",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "basic",
+      "cost": "1",
+      "description": "Gain 8 Block. Discard 1 card.",
+      "categories": [
+        "defense",
+        "block",
+        "filtering"
+      ],
+      "synergyTags": [
+        "discard-synergy"
+      ]
+    },
+    {
+      "id": "acrobatics",
+      "name": "Acrobatics",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Draw 3 cards. Discard 1 card.",
+      "categories": [
+        "card-draw",
+        "filtering"
+      ],
+      "synergyTags": [
+        "discard-synergy",
+        "cycle"
+      ]
+    },
+    {
+      "id": "backflip",
+      "name": "Backflip",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 5 Block. Draw 2 cards.",
+      "categories": [
+        "defense",
+        "block",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "cycle",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "blade-dance",
+      "name": "Blade Dance",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Add 3 Shivs into your Hand.",
+      "categories": [
+        "card-generation"
+      ],
+      "synergyTags": [
+        "shiv-synergy",
+        "spam"
+      ]
+    },
+    {
+      "id": "calculated-gamble",
+      "name": "Calculated Gamble",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Discard your Hand, then draw that many cards.",
+      "categories": [
+        "card-draw",
+        "filtering"
+      ],
+      "synergyTags": [
+        "discard-synergy",
+        "cycle",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "cloak-and-dagger",
+      "name": "Cloak and Dagger",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 6 Block. Add 1 Shiv into your Hand.",
+      "categories": [
+        "defense",
+        "block",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "shiv-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "dagger-spray",
+      "name": "Dagger Spray",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 4 damage to ALL enemies twice.",
+      "categories": [
+        "attack",
+        "aoe",
+        "multi-hit"
+      ],
+      "synergyTags": [
+        "aoe",
+        "multi-hit-synergy"
+      ]
+    },
+    {
+      "id": "deadly-poison",
+      "name": "Deadly Poison",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Apply 5 Poison.",
+      "categories": [
+        "debuff",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "poison-synergy"
+      ]
+    },
+    {
+      "id": "dodge-and-roll",
+      "name": "Dodge and Roll",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Gain 4 Block. Next turn, gain 4 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "defense-scaling",
+        "next-turn"
+      ]
+    },
+    {
+      "id": "escape-plan",
+      "name": "Escape Plan",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Draw 1 card. If you draw a Skill, gain 3 Block.",
+      "categories": [
+        "card-draw",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "cycle",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "piercing-wail",
+      "name": "Piercing Wail",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "1",
+      "description": "ALL enemies lose 6 Strength this turn. Exhaust.",
+      "categories": [
+        "defense",
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "defense-scaling",
+        "multi-hit-counter"
+      ]
+    },
+    {
+      "id": "prepared",
+      "name": "Prepared",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Draw 1 card. Discard 1 card.",
+      "categories": [
+        "card-draw",
+        "filtering"
+      ],
+      "synergyTags": [
+        "discard-synergy",
+        "zero-cost",
+        "sly-enabler"
+      ]
+    },
+    {
+      "id": "blade-of-ink",
+      "name": "Blade of Ink",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Add 2 Inky Shivs into your Hand.",
+      "categories": [
+        "card-generation"
+      ],
+      "synergyTags": [
+        "shiv-synergy",
+        "spam"
+      ]
+    },
+    {
+      "id": "expose",
+      "name": "Expose",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable.",
+      "categories": [
+        "debuff",
+        "utility"
+      ],
+      "synergyTags": [
+        "vulnerable-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "hidden-daggers",
+      "name": "Hidden Daggers",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Discard 2 cards. Add 2 Shivs into your Hand.",
+      "categories": [
+        "card-generation",
+        "filtering"
+      ],
+      "synergyTags": [
+        "discard-synergy",
+        "shiv-synergy",
+        "sly-enabler"
+      ]
+    },
+    {
+      "id": "scare",
+      "name": "Scare",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "common",
+      "cost": "0",
+      "description": "Apply 1 Weak to ALL enemies.",
+      "categories": [
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "suppress",
+      "name": "Suppress",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Innate. Deal 11 damage. Apply 3 Weak.",
+      "categories": [
+        "attack",
+        "debuff"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "innate",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "blur",
+      "name": "Blur",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 5 Block. Block is not removed at the start of your next turn.",
+      "categories": [
+        "defense",
+        "block",
+        "scaling"
+      ],
+      "synergyTags": [
+        "defense-scaling",
+        "next-turn"
+      ]
+    },
+    {
+      "id": "leg-sweep",
+      "name": "Leg Sweep",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Apply 2 Weak. Gain 11 Block.",
+      "categories": [
+        "defense",
+        "block",
+        "debuff"
+      ],
+      "synergyTags": [
+        "weak-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "reflex",
+      "name": "Reflex",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "3",
+      "description": "Sly. Draw 2 cards.",
+      "categories": [
+        "card-draw"
+      ],
+      "synergyTags": [
+        "sly-synergy",
+        "discard-synergy",
+        "cycle"
+      ]
+    },
+    {
+      "id": "untouchable",
+      "name": "Untouchable",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Sly. Gain 6 Block.",
+      "categories": [
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "sly-synergy",
+        "discard-synergy",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "tactician",
+      "name": "Tactician",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "3",
+      "description": "Sly. Gain 2 Energy.",
+      "categories": [
+        "energy-generation"
+      ],
+      "synergyTags": [
+        "sly-synergy",
+        "discard-synergy"
+      ]
+    },
+    {
+      "id": "flanking",
+      "name": "Flanking",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "The enemy takes double attack damage from other players this turn.",
+      "categories": [
+        "debuff",
+        "utility"
+      ],
+      "synergyTags": [
+        "co-op-synergy"
+      ]
+    },
+    {
+      "id": "assassinate",
+      "name": "Assassinate",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Innate. Deal 10 damage. Apply 1 Vulnerable. Exhaust.",
+      "categories": [
+        "attack",
+        "debuff"
+      ],
+      "synergyTags": [
+        "innate",
+        "vulnerable-synergy",
+        "zero-cost",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "backstab",
+      "name": "Backstab",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Innate. Deal 11 damage. Exhaust.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "innate",
+        "zero-cost",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "echoing-slash",
+      "name": "Echoing Slash",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 10 damage to ALL enemies. Repeat this effect for each enemy killed.",
+      "categories": [
+        "attack",
+        "aoe",
+        "combo"
+      ],
+      "synergyTags": [
+        "aoe",
+        "fatal-synergy"
+      ]
+    },
+    {
+      "id": "flechettes",
+      "name": "Flechettes",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 5 damage for each Skill in your Hand.",
+      "categories": [
+        "attack",
+        "multi-hit"
+      ],
+      "synergyTags": [
+        "skill-synergy",
+        "multi-hit-synergy",
+        "hand-size"
+      ]
+    },
+    {
+      "id": "leading-strike",
+      "name": "Leading Strike",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "common",
+      "cost": "1",
+      "description": "Deal 3 damage. Add 2 Shivs into your Hand.",
+      "categories": [
+        "attack",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "shiv-synergy"
+      ]
+    },
+    {
+      "id": "pinpoint",
+      "name": "Pinpoint",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "3",
+      "description": "Deal 15 damage. Costs 1 less for each Skill played this turn.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "skill-synergy",
+        "cost-reduction",
+        "spam"
+      ]
+    },
+    {
+      "id": "pounce",
+      "name": "Pounce",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Deal 14 damage. The next Skill you play costs 0.",
+      "categories": [
+        "attack",
+        "utility"
+      ],
+      "synergyTags": [
+        "cost-reduction",
+        "skill-synergy"
+      ]
+    },
+    {
+      "id": "precise-cut",
+      "name": "Precise Cut",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Deal 13 damage. Deals 2 less damage for each other card in your Hand.",
+      "categories": [
+        "attack"
+      ],
+      "synergyTags": [
+        "zero-cost",
+        "hand-size"
+      ]
+    },
+    {
+      "id": "the-hunt",
+      "name": "The Hunt",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Deal 10 damage. If Fatal, gain an additional card reward. Exhaust.",
+      "categories": [
+        "attack",
+        "meta-scaling"
+      ],
+      "synergyTags": [
+        "fatal",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "bouncing-flask",
+      "name": "Bouncing Flask",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Apply 3 Poison to a random enemy 3 times.",
+      "categories": [
+        "debuff",
+        "passive-damage",
+        "multi-hit"
+      ],
+      "synergyTags": [
+        "poison-synergy"
+      ]
+    },
+    {
+      "id": "catalyst",
+      "name": "Catalyst",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Double an enemy's Poison. Exhaust.",
+      "categories": [
+        "debuff",
+        "scaling"
+      ],
+      "synergyTags": [
+        "poison-synergy",
+        "exhaust-synergy",
+        "win-condition"
+      ]
+    },
+    {
+      "id": "corpse-explosion",
+      "name": "Corpse Explosion",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Apply 6 Poison. When the enemy dies, deal damage equal to its Max HP to ALL enemies.",
+      "categories": [
+        "debuff",
+        "aoe",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "poison-synergy",
+        "fatal-synergy",
+        "aoe"
+      ]
+    },
+    {
+      "id": "crippling-cloud",
+      "name": "Crippling Cloud",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Apply 4 Poison and 2 Weak to ALL enemies. Exhaust.",
+      "categories": [
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "poison-synergy",
+        "weak-synergy",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "noxious-fumes",
+      "name": "Noxious Fumes",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the start of your turn, apply 2 Poison to ALL enemies.",
+      "categories": [
+        "scaling",
+        "passive-damage",
+        "aoe"
+      ],
+      "synergyTags": [
+        "poison-synergy",
+        "scaling"
+      ]
+    },
+    {
+      "id": "envenom",
+      "name": "Envenom",
+      "character": "silent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Whenever an Attack deals unblocked damage, apply 1 Poison.",
+      "categories": [
+        "scaling",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "poison-synergy",
+        "multi-hit-synergy",
+        "shiv-synergy"
+      ]
+    },
+    {
+      "id": "accuracy",
+      "name": "Accuracy",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Shivs deal 4 additional damage.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "shiv-synergy"
+      ]
+    },
+    {
+      "id": "infinite-blades",
+      "name": "Infinite Blades",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the start of your turn, add 1 Shiv into your Hand.",
+      "categories": [
+        "scaling",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "shiv-synergy"
+      ]
+    },
+    {
+      "id": "phantom-blades",
+      "name": "Phantom Blades",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Shivs gain Retain. The first Shiv you play each turn deals 9 additional damage.",
+      "categories": [
+        "scaling"
+      ],
+      "synergyTags": [
+        "shiv-synergy",
+        "retain"
+      ]
+    },
+    {
+      "id": "abrasive",
+      "name": "Abrasive",
+      "character": "silent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Sly. Gain 1 Dexterity. Gain 4 Thorns.",
+      "categories": [
+        "scaling",
+        "defense",
+        "passive-damage"
+      ],
+      "synergyTags": [
+        "sly-synergy",
+        "dexterity",
+        "thorns",
+        "discard-synergy"
+      ]
+    },
+    {
+      "id": "afterimage",
+      "name": "Afterimage",
+      "character": "silent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "Whenever you play a card, gain 1 Block.",
+      "categories": [
+        "scaling",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "spam",
+        "defense-scaling",
+        "shiv-synergy"
+      ]
+    },
+    {
+      "id": "footwork",
+      "name": "Footwork",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "Gain 2 Dexterity.",
+      "categories": [
+        "scaling",
+        "defense"
+      ],
+      "synergyTags": [
+        "dexterity",
+        "defense-scaling"
+      ]
+    },
+    {
+      "id": "tools-of-the-trade",
+      "name": "Tools of the Trade",
+      "character": "silent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "At the start of your turn, draw 1 card and discard 1 card.",
+      "categories": [
+        "card-draw",
+        "filtering",
+        "scaling"
+      ],
+      "synergyTags": [
+        "discard-synergy",
+        "sly-enabler"
+      ]
+    },
+    {
+      "id": "tracking",
+      "name": "Tracking",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Weak enemies take double damage from Attacks.",
+      "categories": [
+        "scaling",
+        "utility"
+      ],
+      "synergyTags": [
+        "weak-synergy"
+      ]
+    },
+    {
+      "id": "well-laid-plans",
+      "name": "Well-Laid Plans",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "At the end of your turn, Retain up to 1 card.",
+      "categories": [
+        "utility",
+        "scaling"
+      ],
+      "synergyTags": [
+        "retain",
+        "hand-manipulation"
+      ]
+    },
+    {
+      "id": "wraith-form",
+      "name": "Wraith Form",
+      "character": "silent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "Gain 2 Intangible. At the start of your turn, lose 1 Dexterity.",
+      "categories": [
+        "defense",
+        "scaling"
+      ],
+      "synergyTags": [
+        "intangible",
+        "dexterity-loss"
+      ]
+    },
+    {
+      "id": "adrenaline",
+      "name": "Adrenaline",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Gain 1 Energy. Draw 2 cards. Exhaust.",
+      "categories": [
+        "energy-generation",
+        "card-draw"
+      ],
+      "synergyTags": [
+        "exhaust-synergy",
+        "cycle",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "bullet-time",
+      "name": "Bullet Time",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "3",
+      "description": "You cannot draw additional cards this turn. Reduce the cost of cards in your hand to 0 this turn.",
+      "categories": [
+        "energy-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "high-cost-synergy",
+        "hand-size"
+      ]
+    },
+    {
+      "id": "burst",
+      "name": "Burst",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "This turn, your next 1 Skill is played twice.",
+      "categories": [
+        "utility",
+        "combo"
+      ],
+      "synergyTags": [
+        "skill-synergy",
+        "duplication"
+      ]
+    },
+    {
+      "id": "grand-finale",
+      "name": "Grand Finale",
+      "character": "silent",
+      "type": "attack",
+      "rarity": "rare",
+      "cost": "0",
+      "description": "Can only be played if there are no cards in your Draw Pile. Deal 50 damage to ALL enemies.",
+      "categories": [
+        "attack",
+        "aoe",
+        "high-damage"
+      ],
+      "synergyTags": [
+        "deck-manipulation",
+        "zero-cost",
+        "win-condition"
+      ]
+    },
+    {
+      "id": "malaise",
+      "name": "Malaise",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "X",
+      "description": "Enemy loses X Strength. Apply X Weak. Exhaust.",
+      "categories": [
+        "debuff",
+        "defense"
+      ],
+      "synergyTags": [
+        "x-cost",
+        "weak-synergy",
+        "exhaust-synergy"
+      ]
+    },
+    {
+      "id": "sneaky",
+      "name": "Sneaky",
+      "character": "silent",
+      "type": "power",
+      "rarity": "uncommon",
+      "cost": "2",
+      "description": "Sly. Whenever another player attacks an enemy, gain 1 Block.",
+      "categories": [
+        "scaling",
+        "defense",
+        "block"
+      ],
+      "synergyTags": [
+        "sly-synergy",
+        "discard-synergy",
+        "co-op-synergy"
+      ]
+    },
+    {
+      "id": "storm-of-steel",
+      "name": "Storm of Steel",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "1",
+      "description": "Discard your Hand. Add 1 Shiv into your Hand for each card discarded.",
+      "categories": [
+        "card-generation",
+        "filtering"
+      ],
+      "synergyTags": [
+        "discard-synergy",
+        "shiv-synergy"
+      ]
+    },
+    {
+      "id": "corrosive-wave",
+      "name": "Corrosive Wave",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "Apply 3 Poison to ALL enemies. If any enemy is already Poisoned, apply 1 Vulnerable and 1 Weak.",
+      "categories": [
+        "debuff",
+        "aoe"
+      ],
+      "synergyTags": [
+        "poison-synergy",
+        "weak-synergy",
+        "vulnerable-synergy"
+      ]
+    },
+    {
+      "id": "knife-trap",
+      "name": "Knife Trap",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "1",
+      "description": "The next time you are attacked this turn, deal 12 damage to the attacker and add 1 Shiv to your hand.",
+      "categories": [
+        "defense",
+        "passive-damage",
+        "card-generation"
+      ],
+      "synergyTags": [
+        "shiv-synergy",
+        "counter-attack"
+      ]
+    },
+    {
+      "id": "accelerant",
+      "name": "Accelerant",
+      "character": "silent",
+      "type": "skill",
+      "rarity": "uncommon",
+      "cost": "0",
+      "description": "Discard a Poison card. Gain 2 Energy.",
+      "categories": [
+        "energy-generation",
+        "filtering"
+      ],
+      "synergyTags": [
+        "discard-synergy",
+        "poison-synergy",
+        "zero-cost"
+      ]
+    },
+    {
+      "id": "master-planner",
+      "name": "Master Planner",
+      "character": "silent",
+      "type": "power",
+      "rarity": "rare",
+      "cost": "2",
+      "description": "At the start of your turn, choose 1: Draw 2 cards, gain 1 Energy, or Retain your hand.",
+      "categories": [
+        "scaling",
+        "card-draw",
+        "energy-generation",
+        "utility"
+      ],
+      "synergyTags": [
+        "flexibility",
+        "retain",
+        "cycle"
+      ]
+    }
+  ]
+}
