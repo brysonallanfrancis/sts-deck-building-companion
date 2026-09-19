@@ -30,7 +30,7 @@ A Slay the Spire 2 deck-building companion app. Pick a character, build out your
 
 ## Extra Expo Packages
 
-- **`expo-linear-gradient`** — per-character themed gradients and card rarity glow
+- **`expo-linear-gradient`** — per-character themed gradients on the deck screen background and character tile portraits
 - **`@expo/vector-icons`** — icons for card type (attack/skill/power) and category badges (multi-hit, defense, etc.)
 - **`expo-image`** — character portrait tiles, with caching and a fade-in transition on load
 
